@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="./rec.css">
+	<title>Speech to Text</title>
+	
+</head>
+<body>
+	
+	<center>
+		<div class="container">
+			<br><br><br>
+			<img id="playButton" class="playButton" src="mic.png" onclick="speechToTextConversion();">
+			<br>
+			<span><button id="submitButton" style="font-size: 15px; width: 100%" class="submitButton">C L I C K&nbsp;&nbsp;&nbsp;O N&nbsp;&nbsp;&nbsp;T H E&nbsp;&nbsp;&nbsp;M I C&nbsp;&nbsp;&nbsp;T O&nbsp;&nbsp;&nbsp;S T A R T&nbsp;&nbsp;&nbsp;R E C O R D I N G</button><br></span>
+		</div>
+
+		<div id="wrapper">
+			<form id="paper">
+				<textarea placeholder="The words spoken by you, will appear here in English." id="text" name="text" rows="4" style="overflow: hidden; word-wrap: break-word; resize: none; height: 160px; "></textarea>  
+			</form>
+		</div>
+			
+	
+	</center>
+
+    <b>
+
+
+<div class="th">
+<p class="blink">Speech to Text<br> Convertor <br>By <a href="https://github.com/hemanth-07-11" target=_blank><b><font color="yellow"> HEMANTH N </font></b></a></p>
+</div>
+</b>
+	
+<script src="./rec.js"></script>
+</body>
+</html>

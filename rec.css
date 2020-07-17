@@ -1,0 +1,227 @@
+.container
+		{
+			position: block; 
+			z-index:3;
+  			top: 40%;
+  			left: 5%;
+  			
+			opacity: 1;
+    		filter: alpha(opacity=90);
+    		margin-bottom: 4px;
+		}
+		.playButton
+		{
+			position: inline;
+			height: 70px;
+			width: 70px;
+		}
+		.playButton:hover
+		{
+			box-shadow: 0 6px 20px 0 #00ff15;
+		}
+		
+		.submitButton 
+		{
+		    position: relative;
+                    width:30%;
+		    background-color: #bcc7d8;
+		    border: none;
+		    font-size: 28px;
+		    color:black;
+		    padding: 10px;
+		    width: 100px;
+		    text-align: center;
+		    -webkit-transition-duration: 0.4s; /* Safari */
+		    transition-duration: 0.4s;
+		    text-decoration: none;
+		    overflow: hidden;
+		    cursor: pointer;
+border-radius: 10px 10px 10px 10px;
+                     
+		}
+		.submitButton:hover
+		{
+			box-shadow:0px 7px 1px 0px rgba(0, 0, 0, 0.0), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+		}
+		.submitButton:after {
+		    content: "";
+		    background: ;
+		    display: block;
+		    position: absolute;
+		    padding-top: 300%;
+		    padding-left: 350%;
+		    margin-left: -20px!important;
+		    margin-top: -120%;
+		    opacity: 0;
+		    transition: all 0.8s
+
+		}
+		.submitButton:active:after {
+		    padding: 0;
+		    margin: 0;
+		    opacity: 1;
+
+		    transition: 0s;
+		}
+		.recogText
+		{
+			position: block; /* or absolute */
+  			top: 70%;
+  			left: 5%;
+  			right: 5%;
+  			height: 100%;
+  			width: 99.3%;
+  			font-size: 25px;
+		}
+		body 
+		{
+			background: url('https://images-na.ssl-images-amazon.com/images/I/81vyAjnfi7L._AC_SL1500_.jpg') ;   
+			
+		}
+		#paper 
+		{
+			
+
+
+
+
+			font-size:20px;
+			z-index: 2;
+		}
+		#margin 
+		{
+			margin-left:12px;
+			margin-bottom:20px;
+			-webkit-user-select: none;
+			-moz-user-select: none;
+			-ms-user-select: none;
+			-o-user-select: none;
+			user-select: none; 
+		}
+		#text 
+		{
+			width:500px;
+                        height:1000px;
+			overflow:hidden;
+			
+			color:#222;
+			font-family:Courier, monospace;
+			font-weight:normal;
+			font-size:24px;
+			resize:none;
+			line-height:40px;
+			padding-left:100px;
+			padding-right:100px;
+			padding-top:45px;
+			padding-bottom:120px;
+			background-image:url(https://static.tumblr.com/maopbtg/E9Bmgtoht/lines.png), url(https://static.tumblr.com/maopbtg/nBUmgtogx/paper.png);
+			background-repeat:repeat-y, repeat;
+			-webkit-border-radius:12px;
+			border-radius:12px;
+			-webkit-box-shadow: 0px 2px 14px #000;
+			box-shadow: 2px 0px 150px 14px #8daeeb;
+			border-top:1px solid green;
+			border-bottom:4px solid green;
+		}
+		#title 
+		{
+			background-color:transparent;
+			border-bottom:3px solid #FFF;
+			color:#FFF;
+			font-size:20px;
+			font-family:Courier, monospace;
+			height:28px;
+			font-weight:bold;
+			width:220px;
+		}
+		#button 
+		{
+			cursor:pointer;
+			margin-top:20px;
+			float:right;
+			height:40px;
+			padding-left:24px;
+			padding-right:24px;
+			font-family:Arial, Helvetica, sans-serif;
+			font-weight:bold;
+			font-size:20px;
+			color:red;
+			text-shadow: 0px -1px 0px #000000;
+			-webkit-border-radius:8px;
+			border-radius:8px;
+			border-top:1px solid #FFF;
+			-webkit-box-shadow: 0px 2px 14px #000;
+			box-shadow: 0px 2px 14px #000;
+			background-color: #62add6;
+			background-image:url(https://static.tumblr.com/maopbtg/ZHLmgtok7/button.png);
+			background-repeat:repeat-x;
+		}
+		#button:active 
+		{
+			zoom: 1;
+			filter: alpha(opacity=80);
+			opacity: 0.8;
+		}
+		#button:focus 
+		{
+			zoom: 1;
+			filter: alpha(opacity=80);
+			opacity: 0.8;
+		}
+		#wrapper 
+		{
+			width:700px;
+			height:auto;
+			margin-left:auto;
+			margin-right:auto;
+			margin-top:24px;
+			margin-bottom:100px;
+		}
+
+
+.th {
+  position: absolute;
+transition: transform .2s; 
+  top: 200px;
+font-family:Segoe Print;
+  left: 50px;
+
+ color:yellow;
+ -ms-transform: rotate(278deg); /* IE 9 */
+  transform: rotate(342deg);
+  text-shadow: 1px 3px #8CF7F2;
+  font-size: 25px;
+   -webkit-animation: glow 1s ease-in-out infinite alternate;
+  -moz-animation: glow 1s ease-in-out infinite alternate;
+  animation: glow 1s ease-in-out infinite alternate;
+
+}
+
+.th:hover{
+
+transform: scale(1.1);
+ -ms-transform: rotate(278deg); /* IE 9 */
+  transform: rotate(350deg);
+font-size: 40px
+}
+
+.blink {
+      animation: blinker 1s linear infinite;
+      color: yellow;
+      font-size: 26px;
+      font-weight: bold;
+      font-family:cursive;
+      }
+      @keyframes blinker {  
+      50% { opacity: 0; }
+      }
+@-webkit-keyframes glow {
+  from {
+    text-shadow: 0 0 10px #F4F967, 0 0 20px #F4F967 , 0 0 30px #F4F967, 0 0 40px #F4F967, 0 0 50px red, 0 0 60px white, 0 0 70px 0C0A0A;
+  }
+  
+  to {
+    text-shadow: 0 0 20px red, 0 0 30px #ff4da6, 0 0 40px #EEE972, 0 0 50px red, 0 0 60px #EEE972, 0 0 70px red, 0 0 80px #F4F967;
+  }}
+
